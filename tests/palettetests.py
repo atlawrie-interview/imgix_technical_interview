@@ -1,4 +1,3 @@
-from turtle import color
 import unittest
 
 from imgix_palette import palette

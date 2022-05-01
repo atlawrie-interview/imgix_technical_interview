@@ -23,7 +23,7 @@ pip install \path\to\imgix_technical\
 
 Both functions heavily leverage the imgix [palette](https://docs.imgix.com/apis/rendering/color-palette/palette) parameter.
 
-### imgix_palette.palette
+### imgix_palette.palette.palette_request
 
 Returns a dict representing a color palette leveraging the imgix palette parameter. See https://docs.imgix.com/apis/rendering/color-palette/palette
 
@@ -48,7 +48,7 @@ Returns a dict representing a color palette leveraging the imgix palette paramet
 
 ```
 
-### imgix_palette.overlay_color
+### imgix_palette.palette.overlay_color
 
 Returns a dict representing a suitable color to be overlayed over a specified image. Uses https://www.w3.org/TR/WCAG21/#contrast-enhanced as a criterion for success, and optionally shifts the hue value to an analagous color.
 

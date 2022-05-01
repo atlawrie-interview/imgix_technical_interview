@@ -10,8 +10,8 @@
 - [License](#license)
 
 ## Dependencies
-[imgix-python](https://github.com/imgix/imgix-python)
-[requests](https://docs.python-requests.org/en/latest/)
+- [imgix-python](https://github.com/imgix/imgix-python)
+- [requests](https://docs.python-requests.org/en/latest/)
 
 ## Installation
 
